@@ -5,11 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 
 import App from './App.jsx'
-import Error from './pages/error.jsx'
-import About from './pages/about.jsx'
-import Portfolio from './pages/portfolio.jsx';
-import Resume from './pages/resume.jsx';
-import Contact from './pages/contact.jsx'
+import Error from './pages/error'
+import About from './pages/about'
+import Portfolio from './pages/portfolio';
+import Resume from './pages/resume';
+import Contact from './pages/contact'
 
 const router = createBrowserRouter([
   {
@@ -22,15 +22,15 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: '/Portfolio',
+        path: '/portfolio',
         element: <Portfolio />,
       },
       {
-        path: '/Resume',
+        path: '/resume',
         element: <Resume />,
       },
       {
-        path: '/Contact',
+        path: '/contact',
         element: <Contact />,
       },
     ],
