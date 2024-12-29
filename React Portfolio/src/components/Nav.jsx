@@ -7,7 +7,7 @@ function Nav () {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <Link to="/about" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>
+        <Link to="/" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>
           About
         </Link>
       </li>
