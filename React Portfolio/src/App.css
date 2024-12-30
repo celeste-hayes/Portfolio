@@ -87,11 +87,13 @@ Footer {
   padding: 15px 25px;
   border-radius: 20px;
   cursor: pointer;
+  color: white;
   transition: all 0.3s;
 }
 
 .connect-btn:hover {
   border: 2px solid black;
+  color: black;
   background: white;
 }
 
