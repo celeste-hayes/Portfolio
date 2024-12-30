@@ -22,7 +22,7 @@ export default function Resume() {
               <BiMap style={{ fontSize: '1.5rem', marginRight: '8px' }} /> {/* React Icon */}
               <span>Remote (Garner, NC)</span>
             </div>
-            A passionate code crafter diving headfirst into the world of full-stack development. Combining creativity and logic, ready to build responsive, user-friendly applications that bring ideas to life!
+            A passionate code crafter diving headfirst into the world of full stack development. Combining creativity and logic, ready to build responsive, user-friendly applications that bring ideas to life!
             <div style={{ marginTop: '15px' }}>
               <div style={{ textAlign: 'center' }}>
                 {[
@@ -58,7 +58,7 @@ export default function Resume() {
               <BiMap style={{ fontSize: '1.5rem', marginRight: '8px' }} /> {/* React Icon */}
               <span>Remote (Durham, NC)</span>
             </div>
-            A results driven product wizard with 4 years of experience turning big ideas into scalable solutions. Expert at bridging the gap between vision and execution, delivering customer-focused products that wow!
+            A results driven product wizard with 4 years of experience turning big ideas into scalable solutions. Expert at bridging the gap between vision and execution, delivering customer focused products that wow!
             <div style={{ marginTop: '15px' }}>
               <div style={{ textAlign: 'center' }}>
                 {[
