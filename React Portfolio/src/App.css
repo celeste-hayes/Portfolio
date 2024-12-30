@@ -36,13 +36,14 @@ Footer {
   color: black;
 }
 
-/* About Page */
+/* About Page Custom CSS */
 
 .hero {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 35px;
+  margin-bottom: 80px;
 }
 
 .hero img {
@@ -98,6 +99,7 @@ Footer {
   padding: 15px 12px;
   border-radius: 20px;
   border: 2px solid black;
+  color: black;
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -108,24 +110,25 @@ Footer {
   border-radius: 20px;
   border: 2px solid transparent;
   cursor: pointer;
+  color: white;
   transition: all 0.3s;
 }
 
-/* Contact Page */
+/* Contact Page Custom CSS */
 
 .custom-input {
-  border: 2px solid white; /* Solid black border */
+  border: 2px solid white;
   background: linear-gradient(270deg, #f9b460 10%, #c35ff2 100%);
-  color: white; /* Black text */
-  padding: 10px; /* Add some padding for better appearance */
-  border-radius: 5px; /* Optional: Rounded corners */
-  font-size: 1rem; /* Adjust font size */
-  outline: none; /* Remove default outline */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
 }
 
 .custom-input:focus {
-  border-color: #c35ff2; /* Change border color on focus */
-  box-shadow: 0 0 5px #c35ff2; /* Add a subtle glow effect */
+  border-color: #c35ff2;
+  box-shadow: 0 0 5px #c35ff2;
 }
 
 label {
@@ -145,6 +148,35 @@ label {
   color: white;
 }
 
+/* Resume Page Custom CSS */
+.custom-accordion {
+  margin-top: 40px 0;
+  margin-bottom: 50px;
+  min-width: 800px;
+  max-width: 800px;
+}
+.accordion-button {
+  background: linear-gradient(270deg, #f9b460 10%, #c35ff2 100%);
+  color: #ffffff;
+  font-size: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+.accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.accordion-body {
+  white-space: normal;
+  padding: 20px;
+}
+.custom-badge {
+  background-color: #f9b460 !important;
+  color: white !important;
+  font-size: 1rem;
+  padding: 0.5em 0.75em;
+  border-radius: 0.5rem;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -158,12 +190,4 @@ label {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
