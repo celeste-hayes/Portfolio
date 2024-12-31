@@ -17,9 +17,9 @@ export default function Resume() {
             <span>Present</span>
           </div>
           </Accordion.Header>
-          <Accordion.Body className='fs-6' style={{ textAlign: 'left' }}>
+          <Accordion.Body className='custom-accordion-body' style={{textAlign: 'left' }}>
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-              <BiMap style={{ fontSize: '1.5rem', marginRight: '8px' }} /> {/* React Icon */}
+              <BiMap style={{ marginRight: '8px' }} />
               <span>Remote (Garner, NC)</span>
             </div>
             A passionate code crafter diving headfirst into the world of full stack development. Combining creativity and logic, ready to build responsive, user-friendly applications that bring ideas to life!
@@ -53,9 +53,9 @@ export default function Resume() {
             <span>2021 - Present</span>
           </div>
           </Accordion.Header>
-          <Accordion.Body className='fs-6' style={{ textAlign: 'left' }}>
+          <Accordion.Body className='custom-accordion-body' style={{ textAlign: 'left' }}>
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-              <BiMap style={{ fontSize: '1.5rem', marginRight: '8px' }} /> {/* React Icon */}
+              <BiMap style={{ marginRight: '8px' }} />
               <span>Remote (Durham, NC)</span>
             </div>
             A results driven product wizard with 4 years of experience turning big ideas into scalable solutions. Expert at bridging the gap between vision and execution, delivering customer focused products that wow!
@@ -89,9 +89,9 @@ export default function Resume() {
             <span>2017 - 2021</span>
           </div>
           </Accordion.Header>
-          <Accordion.Body className='fs-6' style={{ textAlign: 'left' }}>
+          <Accordion.Body className='custom-accordion-body' style={{ textAlign: 'left' }}>
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-              <BiMap style={{ fontSize: '1.5rem', marginRight: '8px' }} /> {/* React Icon */}
+              <BiMap style={{ marginRight: '8px'} } />
               <span>Hybrid (Raleigh, NC)</span>
             </div>
             A strategic problem solver with 4 years of expertise in turning data into actionable insights. Skilled at streamlining processes, enhancing business performance, and delivering solutions that drive results!

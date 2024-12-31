@@ -157,6 +157,9 @@ label {
   min-width: 800px;
   max-width: 800px;
 }
+.custom-accordion-body {
+  font-size: 1.2rem;
+}
 .accordion-button {
   background: linear-gradient(270deg, #f9b460 10%, #c35ff2 100%);
   color: #ffffff;
@@ -177,6 +180,16 @@ label {
   font-size: 1rem;
   padding: 0.5em 0.75em;
   border-radius: 0.5rem;
+}
+
+/* Portfolio Page Custom CSS */
+.card-link {
+  color: #c35ff2;;
+  font-size: 1rem;
+}
+
+.card-link:hover {
+  color: #e68a2e;
 }
 
 @keyframes logo-spin {
