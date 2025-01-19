@@ -1,7 +1,7 @@
 # My Portfolio
 Welcome to my Portfolio! This project showcases my journey as a developer, highlighting multiple projects I've completed using React and other modern web technologies. The goal of this portfolio is to present my skills, experience, and work to potential employers or clients in a dynamic and interactive way.
 
-This portfolio is deployed using Netlify. You can view the live version at:
+This portfolio is deployed using Netlify. You can view the live version at: https://chayes-portfolio.netlify.app/
 
 
 ## Table of Contents
