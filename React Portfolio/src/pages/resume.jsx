@@ -5,7 +5,7 @@ import { Badge } from 'react-bootstrap';
 
 export default function Resume() {
   return (
-    <div className='container mt-5'>
+    <div className='container mt-5 pb-5'>
       <h2 className='display-1 fw-normal mb-4'>experience.</h2>
       <p className='fs-3'>Explore my professional journey—new milestones ahead!</p>
       <Accordion className='custom-accordion' defaultActiveKey='0'>

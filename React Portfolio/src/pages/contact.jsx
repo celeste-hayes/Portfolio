@@ -42,7 +42,7 @@ export default function Contact() {
       )}
       <form
         ref={formRef}
-        className='contact-form'
+        className='contact-form pb-5'
         style={{ display: 'flex', flexDirection: 'column', width: '500px' }}
         onSubmit={handleSubmit}
       >

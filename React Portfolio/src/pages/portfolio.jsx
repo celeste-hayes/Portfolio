@@ -43,7 +43,7 @@ export default function Portfolio() {
       <h2 className='display-1 fw-normal mb-4'>portfolio.</h2>
       <p className='fs-3'>Check out my latest projects—more exciting things coming soon!</p>
       
-      <Container>
+      <Container className="pb-5">
         <Row>
           {projects.map((project, index) => (
             <Col key={index} md={4} sm={6} className="d-flex justify-content-center">
