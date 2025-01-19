@@ -8,7 +8,7 @@ export default function Portfolio() {
       title: "Pro README Scribe",
       description: "This command line app lets users generates a professional README.md file from user input. Leveraging inquirer, this tool helps you quickly create a README.md file, so you can focus more on building your project",
       technologies: "Node.js",
-      image: "src/assets/ReadMe.png",
+      image: "/assets/ReadMe.png",
       deployedLink: "",
       repoLink: "https://github.com/celeste-hayes/Pro-ReadMe-Scribe"
     },
@@ -16,7 +16,7 @@ export default function Portfolio() {
       title: "Vehicle Simulator",
       description: "This command line app lets users create and manage vehicles (Car, Truck, or Motorbike) by providing relevant details. Users can select from existing vehicles and perform actions like start, stop, and accelerate through prompts.",
       technologies: "TypeScript",
-      image: "src/assets/VehicleSimulator.jpg",
+      image: "/assets/VehicleSimulator.jpg",
       deployedLink: "",
       repoLink: "https://github.com/celeste-hayes/Vehicle-Simulator"
     },
@@ -24,7 +24,7 @@ export default function Portfolio() {
       title: "Weather Dashboard",
       description: "This browser app lets users search for a city and view the current weather conditions along with a 5-day forecast. This app uses the OpenWeather API to retrieve weather data for cities.",
       technologies: "API",
-      image: "src/assets/WeatherPreview.png",
+      image: "/assets/WeatherPreview.png",
       deployedLink: "https://api-weather-dashboard.onrender.com/",
       repoLink: "https://github.com/celeste-hayes/API-Weather-Dashboard"
     },
@@ -32,7 +32,7 @@ export default function Portfolio() {
       title: "Employee Tracker",
       description: "This command line app serves as a content management system (CMS) for managing a company's departments, roles, and employees. Through this application users can add, view, and update employee details, roles, and departments.",
       technologies: ["Node.js", "PostgreSQL"],
-      image: "src/assets/EmployeeTracker.png",
+      image: "/assets/EmployeeTracker.png",
       deployedLink: "",
       repoLink: "https://github.com/celeste-hayes/Employee-Tracker"
     }
